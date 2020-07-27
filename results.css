@@ -56,9 +56,11 @@ li {
     border-bottom: 2px blue solid;
 }
 
+
 p {
     margin-top: -40px;
-    margin-left: 10px;
+    margin-left: 16px;
+    font-size: 12px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -69,7 +71,14 @@ h2, h3, h4 {
 
 h2 {
     color: blue;
+    font-size: 20px;
+    margin-left: 16px;
     
+}
+
+h3{
+    font-size: 16px;
+    margin-left: 16px;
 }
 
 .definitions {
@@ -81,6 +90,8 @@ h2 {
 h4 {
     display: inline-block;
     margin-top: -4px;
+    margin-left: 16px;
+    font-size: 14px;
  
 }
 
