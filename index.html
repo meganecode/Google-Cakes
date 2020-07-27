@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css">  
+
+        <title>
+            Google Cakes
+        </title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li class="active">Bakeries</li>
+                <li>Recipes</li>
+            </ul>
+        </nav>
+        
+        <div id="container">
+        
+        <h1>
+            <span style="color: blue">G</span>
+            <span style="color: red">o</span>
+            <span style="color: yellow">o</span>
+            <span style="color: blue">g</span>
+            <span style="color: green">l</span>
+            <span style="color: red">e</span>
+            <span style="color: lightgrey">Cakes</span>
+        </h1>
+
+        <img src="https://media1.tenor.com/images/0530cacdb5b2c6e0c80365e5623f11c0/tenor.gif?itemid=6000119" height="150" width="150">
+        </div>
+
+        <form method="PUT" action="./results.html">
+            <label for="search"></label>
+            <input type="text" id="search" name="search" placeholder="Search..." required pattern="Sukali Bakery" oninvalid="this.setCustomValidity('Did you change your name?')" oninput="this.setCustomValidity('')"/>
+        </form>
+
+        <footer>
+            London, United Kingdom
+        </footer>
+    </body>
+</html>

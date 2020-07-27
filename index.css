@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+
+/* Nav bar */
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin-bottom: 50px;
+    
+}
+
+li {
+    float: left;
+    display: block;
+    padding: 8px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: dimgrey;
+}
+
+.active {
+    border-bottom: 2px blue solid;
+}
+
+/* Heading*/
+div {
+    text-align: center;
+    
+}
+
+h1 {
+    display: inline-block;
+    letter-spacing: 0em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+}
+
+
+
+
+/*Form*/
+form {
+    text-align: center;
+  
+}
+
+input {
+    padding: 14px 20px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    
+}
+
+input {
+    background-color: white;
+    background-image: url(https://icon-library.com/images/icon-search/icon-search-18.jpg);
+    background-size: contain;
+    background-position: 4px 4px;
+    background-repeat: no-repeat;
+    padding-left: 45px;
+}
+
+footer {
+    background-color: gainsboro;
+    margin-top: 210px;
+    padding: 30px;
+    font-size: smaller;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
